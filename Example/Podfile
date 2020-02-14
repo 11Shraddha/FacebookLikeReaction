@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FacebookLikeReaction_Example' do
+  pod 'FacebookLikeReaction', :path => '../'
+
+  target 'FacebookLikeReaction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
