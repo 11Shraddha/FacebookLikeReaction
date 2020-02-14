@@ -1,0 +1,16 @@
+PODS:
+  - FacebookLikeReaction (0.1.0)
+
+DEPENDENCIES:
+  - FacebookLikeReaction (from `../`)
+
+EXTERNAL SOURCES:
+  FacebookLikeReaction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FacebookLikeReaction: aadcaf10aac4a7e2bcbf7d41f6b0cb8b9539398e
+
+PODFILE CHECKSUM: 8a5d47e614b03a607463ff5c7e9658c79dc74b06
+
+COCOAPODS: 1.9.0.beta.3

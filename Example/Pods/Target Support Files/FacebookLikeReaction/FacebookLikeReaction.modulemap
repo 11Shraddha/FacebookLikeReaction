@@ -1,0 +1,6 @@
+framework module FacebookLikeReaction {
+  umbrella header "FacebookLikeReaction-umbrella.h"
+
+  export *
+  module * { export * }
+}
