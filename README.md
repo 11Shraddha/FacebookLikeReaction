@@ -50,7 +50,7 @@ class ViewController: UIViewController {
                             Reaction(title: "Love", imageName: "icn_love"),
                             Reaction(title: "Sad", imageName: "icn_sad")]
         
-        reactionView?.initialize(delegate: self , reactionsArray: reactions, sourceView: self.view, gestureView: btnReaction)
+        reactionView.initialize(delegate: self , reactionsArray: reactions, sourceView: self.view, gestureView: btnReaction)
     }
  }
 
