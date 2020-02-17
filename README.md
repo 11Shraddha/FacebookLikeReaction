@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/FacebookLikeReaction.svg?style=flat)](https://cocoapods.org/pods/FacebookLikeReaction)
 [![Platform](https://img.shields.io/cocoapods/p/FacebookLikeReaction.svg?style=flat)](https://cocoapods.org/pods/FacebookLikeReaction)
 
+FacebookLikeReaction is a customizable view which provides more options to share your reactions on any post like Facebook Reactions.
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 10.0+    
+Xcode 10.0+   
+Swift 4.2+     
+
 
 ## Installation
 
