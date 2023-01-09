@@ -32,7 +32,7 @@ public class ReactionView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func initialize(delegate: UIViewController, reactionsArray: [Reaction], sourceView: UIView, gestureView: UIView) {
+    public func initialize(delegate: Any, reactionsArray: [Reaction], sourceView: UIView, gestureView: UIView) {
         let iconHeight: CGFloat = 35
         let padding: CGFloat = 8
         self.reactions = reactionsArray
