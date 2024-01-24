@@ -32,7 +32,7 @@ public class ReactionView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func initialize(delegate: UIViewController, reactionsArray: [Reaction], sourceView: UIView, gestureView: UIView) {
+    public func initialize(delegate: Any, reactionsArray: [Reaction], sourceView: UIView, gestureView: UIView) {
         let iconHeight: CGFloat = 35
         let padding: CGFloat = 8
         self.reactions = reactionsArray
@@ -67,10 +67,10 @@ public class ReactionView: UIView {
         stackView.isLayoutMarginsRelativeArrangement = true
         
         let width = (CGFloat(imgs.count) * iconHeight) + (CGFloat(imgs.count+1) * padding)
-        self.frame = CGRect(x: 0, y: 0, width: width, height: iconHeight + 2 * padding)
+        self.frame = CGRect(x: 50, y: 0, width: width, height: iconHeight + 2 * padding)
         layer.cornerRadius = frame.height/2
         addSubview(stackView)
-        stackView.frame = frame
+        stackView.frame = CGRect(x: 0, y: 0, width: width, height: iconHeight + 2 * padding)
         
         let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(handleLongPress))
         gestureView.addGestureRecognizer(longPressGesture)
